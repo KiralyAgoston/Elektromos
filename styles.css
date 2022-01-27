@@ -1,7 +1,4 @@
-h1 {
-    text-decoration: underline;
+.nav-link{
+    margin-right: 4px;
 }
 
-h2 {
-    font-weight: bold;
-}
