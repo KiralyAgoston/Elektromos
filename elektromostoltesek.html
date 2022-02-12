@@ -1,74 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 </head>
+
 <body>
-    <h1 class="text-center">Az elektromos töltések</h1>
+    <h1 class="animate__animated animate__fadeInDown text-center" >Az elektromos töltések</h1>
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary p-2" style="--bs-bg-opacity: .6;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary p-2 animate__animated animate__fadeInDown" style="--bs-bg-opacity: .6;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Főoldal</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link text-dark bg-light m-2 p-2"  href="elektromostoltesek.html">Elektromos töltések</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark bg-light m-2 p-2" href="elektromoserőtér.html">Elektromos erőtér</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link text-dark bg-light m-2 p-2" href="meddőteljesítmény.html">Meddő teljesítmény</a>
-              </li>
+            <a class="navbar-brand" href="index.html">Főoldal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li id="li" class="nav-item">
+                        <a class="nav-link text-dark bg-light m-2 p-2 border border-dark border-3" href="elektromostoltesek.html">Elektromos
+                            töltések</a>
+                    </li>
+                    <li id="li" class="nav-item">
+                        <a class="nav-link text-dark bg-light m-2 p-2 border border-dark border-3" href="elektromoserőtér.html">Elektromos
+                            erőtér</a>
+                    </li>
     
-              <li class="nav-item">
-                <a class="nav-link text-dark bg-light m-2 p-2" href="elektromoserőművek.html">Elektromos erőművek</a>
-              </li>
+                    <li id="li" class="nav-item">
+                        <a class="nav-link text-dark bg-light m-2 p-2 border border-dark border-3" href="meddőteljesítmény.html">Meddő
+                            teljesítmény</a>
+                    </li>
     
-            </ul>
-            
-          </div>
+                    <li id="li" class="nav-item">
+                        <a class="nav-link text-dark bg-light m-2 p-2 border border-dark border-3" href="elektromoserőművek.html">Elektromos
+                            erőművek</a>
+                    </li>
+    
+                </ul>
+    
+            </div>
         </div>
-      </nav>
-
-
-
-
-    <div class="container">
-        Az elektromos töltés bizonyos szubatomi részecskék tulajdonsága (nevezetesen az elektroné és a protoné),
-        amely kapcsolatba lép az elektromágneses térrel,
-        és közöttük (a töltések előjelétől függően)
-        vonzó (eltérő előjelű töltések) vagy taszító (azonos előjelű töltések) irányú erő lép fel.
-        Az elektromos töltés az anyag olyan tulajdonsága, amelyet nem lehet megsemmisíteni,
-        ám hatása leárnyékolható. A töltésnek két fajtája van, pozitív és negatív.
-        Az egyforma töltésű anyagok taszítják, az ellenkező töltések vonzzák egymást.
-        A vonzás vagy taszítás során létrejövő erő nagyságát és irányát Coulomb törvénye írja le.
-        A Coulomb-törvény szerint az erő nagysága fordítottan arányos a két töltés közötti távolság négyzetével,
-        és egyenesen arányos a töltések szorzatának nagyságával.
-    </div>
+    </nav>
+    
+    <br>
 
 
 
 
 
 
+    <div class="row gap-3 ms-2 me-2 animate__animated animate__fadeInUp my-4">
+        <div class="col-12 col-md-12 col-lg-4 bg-light mx-auto rounded-3 border border-danger border-3">
+          Az elektromos töltés bizonyos szubatomi részecskék tulajdonsága (nevezetesen az elektroné és a protoné),
+          amely kapcsolatba lép az elektromágneses térrel,
+          és közöttük (a töltések előjelétől függően)
+          vonzó (eltérő előjelű töltések) vagy taszító (azonos előjelű töltések) irányú erő lép fel.
+          Az elektromos töltés az anyag olyan tulajdonsága, amelyet nem lehet megsemmisíteni,
+          ám hatása leárnyékolható. A töltésnek két fajtája van, pozitív és negatív.
+          Az egyforma töltésű anyagok taszítják, az ellenkező töltések vonzzák egymást.
+          A vonzás vagy taszítás során létrejövő erő nagyságát és irányát Coulomb törvénye írja le.
+          A Coulomb-törvény szerint az erő nagysága fordítottan arányos a két töltés közötti távolság négyzetével,
+          és egyenesen arányos a töltések szorzatának nagyságával.
+        </div>
+    
+    
+        <div class="col-12 col-md-12 col-lg-4 bg-light mx-auto rounded-3 border border-primary border-3">
+            Egyes elemi részecskék alapvető tulajdonsága, amely az egymásra kifejtett speciális erőhatásban nyílvánul
+            meg.
+            Az azonos nemű töltések taszítják, az ellentétes neműek vonzzák egymást.
+            A töltések között ható erőt a Coulomb-törvény fejezi ki. Az elemi töltésegység: e=1,602 10-19 C, nagysága egyenlő, de előjelben ellentétes az elektron töltésével, nem osztható, fizikai alapállandó. Minden elektromos töltés ennek az e-nek valamely többszöröse. 
+            A töltés összeadódó mennyiség, és mindig megmarad.
+        </div>
+        
+        
+        <div class="card mx-auto col-12 col-md-12 col-lg-4 bg-light rounded-3 border-dark border-3" style="width: 20rem;">
+            <img src="Coulomb.jpeg" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <div class="card-header fw-bold text-center"><a target="_blank" href="https://hu.wikipedia.org/wiki/Michael_Faraday">Charles Augustin de Coulomb</a>  </div>
+              
+            </div>
+          </div>
+
+      </div>
 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   
+
+
+
+
+
+    <table id="table" class="table table-striped table-hover mx-auto border-dark my-4 table-bordered border-dark animate__animated animate__fadeInUp">
+        <thead>
+            <tr>
+                <th class="text-center" colspan="2" scope="col">Elektromos töltések</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>pozitív</td>
+                <td>(proton)</td>
+              
+            </tr>
+            <tr>
+                <td>negatív</td>
+                <td>(elektron)</td>
+                
+            </tr>
+            <tr>
+                
+                <td>jele:</td>
+                <td>Q</td>
+                
+            </tr>
+            <tr>
+                <td>SI-egysége</td>
+                <td>Coulomb (C)</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
