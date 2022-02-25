@@ -47,3 +47,9 @@ padding: 10px;
 }
 
 
+.gomb{
+    border-radius: 5px;
+    background-color:rgb(17, 99, 194);
+    color: white;
+    
+}

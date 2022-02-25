@@ -10,12 +10,42 @@
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body>
+<body id="darkmode">
+
+
+
+
+
+    <button class="gomb" onclick="myFunction()">Dark Mode</button>
+   <button class="gomb" onclick="myFunction1()">Light Mode</button>
+
+    <script>
+        function myFunction() {
+            document.getElementById("darkmode").style.backgroundColor = "black";
+            document.getElementById("darkmode").style.color = "white"
+           
+
+        }
+        
+        function myFunction1(){
+                document.getElementById("darkmode").style.backgroundColor = "white";
+                document.getElementById("darkmode").style.color = "black"
+         }
+        
+        
+        
+    </script>
+
+
+
+
+
+
 
 <h1 class="animate__animated animate__fadeInDown text-center">Vegye fel velünk a kapcsolatot</h1>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-3 p-2 animate__animated animate__fadeInDown" style="--bs-bg-opacity: .6;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Főoldal</a>
+            <a class="navbar-brand"  href="index.html">Főoldal</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -49,7 +79,7 @@
     </nav>
 
 
-   <div class="container bg-light border border-dark border-3 p-4 rounded-3 animate__animated animate__zoomIn">
+   <div class="container  border border-3 p-4 rounded-3 animate__animated animate__zoomIn">
        <div class="mb-3">
            <label for="exampleFormControlInput1" class="form-label text-decoration-underline fw-bold">Email cím:</label>
            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="pelda@gmail.com">
@@ -59,7 +89,7 @@
            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
          </div>
          
-         <button onclick="myFunction()">Küldés</button>
+         <button onclick="kuld()">Küldés</button>
        
    </div>
 
@@ -68,7 +98,7 @@
    <h1 class="text-center " id="gomb"></h1>
    
    <script>
-   function myFunction() {
+   function kuld() {
      document.getElementById("gomb").innerHTML = "Köszönjük az együttműködését!";
    }
    </script>
