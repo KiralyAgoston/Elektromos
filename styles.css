@@ -24,6 +24,7 @@
     background: linear-gradient(to top right,lightblue 50%,rgba(240, 93, 93, 0.774) 50%);
     background-repeat: no-repeat;
     background-size: auto;
+    width: 100%;
 }
 
 .kapcsolat{
